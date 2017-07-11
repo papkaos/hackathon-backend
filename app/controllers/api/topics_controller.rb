@@ -4,6 +4,10 @@ class Api::TopicsController < ApplicationController
     @topics = Topic.all
   end
 
+  def create
+    Topic.create(name: params[:topic][:name])
+  end
+
   def destroy
     Topic[params['id']].delete
   end
