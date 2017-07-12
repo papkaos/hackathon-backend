@@ -1,3 +1,9 @@
 object @topics
 
-attributes :id, :name
+extends 'api/topics/base'
+
+attributes :name
+
+# node(:pretty_name) do |topic|
+#   topic.name + '!'
+# end
