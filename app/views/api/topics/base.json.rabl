@@ -1,1 +1,1 @@
-attributes :id
+attributes :id, :name

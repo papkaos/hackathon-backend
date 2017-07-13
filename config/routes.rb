@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
     resources :topics
 
+    resources :speakers
+
+    resources :hackathons
+
   end
 
 end
